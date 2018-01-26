@@ -7,12 +7,12 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-
     <com.mapbox.mapboxsdk.maps.MapView
         android:id="@+id/mapView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:mapbox_renderTextureMode="true"/>
+        app:mapbox_renderTextureMode="true"
+        app:mapbox_renderTextureTranslucentSurface="true"/>
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fabResize"
